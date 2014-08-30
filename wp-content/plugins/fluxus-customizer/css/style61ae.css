@@ -1,0 +1,62 @@
+
+#fluxus-customize {
+    position: fixed;
+    width: 120px;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 2px 0 0 2px;
+    right: -163px;
+    top: 100px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    z-index: 10000;
+    border: 1px solid #ccc;
+    transition: right 0.2s ease-out;
+    -moz-transition: right 0.2s ease-out;
+    -webkit-transition: right 0.2s ease-out;
+    -o-transition: right 0.2s ease-out;
+    -ms-transition: right 0.2s ease-out;
+}
+
+#fluxus-customize.opened {
+    right: -1px;
+}
+
+#fluxus-customize-toggle {
+    position: absolute;
+    left: -42px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px 0 0 2px;
+    border: 1px solid #ccc;
+    border-right-color: #fff;
+    background: url(../images/settings.png) no-repeat 10px 8px #fff;
+    display: block;
+}
+
+#fluxus-customize h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #ccc;
+    margin: 0 0 5px;
+}
+
+#fluxus-customize .control-stylesheet a {
+    font-size: 13px;
+    display: block;
+    line-height: 21px;
+    color: #999;
+    float: left;
+    clear: left;
+}
+
+#fluxus-customize .control-stylesheet a:hover {
+    color: #111;
+}
+
+#fluxus-customize .control-stylesheet a.active {
+    font-weight: bold;
+    color: #111;
+}
+
